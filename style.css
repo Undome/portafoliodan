@@ -1,0 +1,59 @@
+body {
+	background-color: #282C2F;
+	color: white;
+	}
+footer {
+	margin: 20px 10% 20px 10%;
+	}
+.section {
+	margin: 20px 10% 20px 10%;
+	}
+.nav-links {
+	display: flex;
+	}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 10% 20px 10%;
+	}
+.nav-item {
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	}
+.nav-item a {
+	color: white;
+	}	
+.hero {
+	background-image: url("images/website-gec8fa43ab_1280.jpg");
+	height: 40rem;
+	background-repeat: no-repeat;
+	background-position: center center;
+	opacity: .5;
+	}
+.logo {
+	max-height: 50px;
+	}
+.flexbox-container{
+	display: flex;
+	justify-content: space-between;	
+	}
+.center {
+	text-align: center;
+	}
+.box {
+	border: solid;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+.footerlist {
+	text-decoration: none;
+	}
+.gitButton {
+	margin: 20px auto;
+	}
+#contenedor-formulario {
+	text-align: center;
+	}
