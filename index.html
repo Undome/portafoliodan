@@ -12,7 +12,6 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<!--En el header iran mi foto y mi nombre con cargo-->
 		<header class="">
 					
 		<!--Aquí se colocara el navbar-->
@@ -26,26 +25,26 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-						  <a class="nav-link" href="#Aboutme">About me</a>
+						  <a class="nav-link" href="index.html#Aboutme">About me</a>
 						</li>
 						<li class="nav-item dropdown">
 						  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Proyectos</a>
 						  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item text-dark" href="#">Todos los proyectos</a></li>
+							<li><a class="dropdown-item text-dark" href="#Proyectos">Proyectos</a></li>
 							<li><hr class="dropdown-divider"></li>
 							<li><a class="dropdown-item text-dark" href="https://practicatm.000webhostapp.com/" target="_blank">Proyecto final de curso de HTML5 y CSS3</a></li>
-							<li><a class="dropdown-item text-dark" href="Proyectos/To do list/toDoList.html">To do list</a></li>
-							<li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+							<li><a class="dropdown-item text-dark" href="https://appingresos-egresos.netlify.app/" target="_blank">Proyecto final de curso de JavaScript</a></li>
+							<li><a class="dropdown-item text-dark" href="toDoList.html">To do list</a></li>
 						  </ul>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link" href="#Lenguajes">Lenguajes</a>
+						  <a class="nav-link" href="index.html#Lenguajes">Lenguajes</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link" href="#Skills">Skills</a>
+						  <a class="nav-link" href="index.html#Skills">Skills</a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link" href="#Contactame">Contactame</a>
+						  <a class="nav-link" href="index.html#Contactame">Contactame</a>
 						</li>
 					  </ul>
 					</div>
@@ -55,9 +54,13 @@
 		</header>
 
 		<main>
+		<!--Sección de heroe-->
 			<section id="Hero" class="hero">
-				<div >
-					
+				<div>
+					<img src="images/foto_perfil_chica (3).jpg" class="perfil" alt="">
+					<div class="perft">
+						<h3>Web developer Jr</h3>
+					</div>
 				</div>
 			</section>
 		<!--Colocar aquí los principales proyectos-->
@@ -97,11 +100,11 @@
 						</div>
 						<div class="col">
 							<div class="card bg-secondary" style="width: 18rem;">
-								<img src="..." class="card-img-top" alt="...">
+								<img src="images/Appingresosegresos.jpg" class="card-img-top" alt="...">
 								<div class="card-body">
-									<h5 class="card-title">Card title</h5>
-									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									<a href="#" class="btn btn-warning" target="_blank">Ir al proyecto</a>
+									<h5 class="card-title">Proyecto final de curso de JavaScript</h5>
+									<p class="card-text">Para el curso de desarrollo Frontend de la universidad Tec Milenio, en el curso 2, enfocado en JavaScript, se nos solicito realizar una aplicación web en donde ocuparamos los conocimientos adquiridos para realizar una App de Ingresos vs Egresos.</p>
+									<a href="https://appingresos-egresos.netlify.app/" class="btn btn-warning" target="_blank">Ir al proyecto</a>
 								</div>
 							</div>
 						</div>
@@ -214,7 +217,7 @@
 			
 		<!--Colocamos el footer y algunos datos-->
 			<footer>
-				<div class="flexbox-container">
+				<div class="flexbox-container bg-dark">
 					 <div id="datosfooter">
 						<h3>
 						Datos de contacto
